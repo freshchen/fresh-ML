@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import operator
-from tools.file_name import init_file_name
+from tools.time_name import init_file_name
 
 
 # 处理输入格式问题，从文件中读取数据
