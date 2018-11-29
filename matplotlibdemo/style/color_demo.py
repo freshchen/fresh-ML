@@ -1,11 +1,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib import style
 
 """
  @anthor LingChen
  @create 11/28/2018 4:50 PM
  @Description
 """
+style.use('ggplot')
 # 创建子图，1*1网格，起点（0，0）
 fig = plt.figure()
 ax1 = plt.subplot2grid((1, 1), (0, 0))
