@@ -19,4 +19,6 @@ ax1.plot_wireframe(x, y, z)
 ax1.set_xlabel('x axis')
 ax1.set_ylabel('y axis')
 ax1.set_zlabel('z axis')
-plt.show()
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\3d2.png')

@@ -17,5 +17,7 @@ plt.pie(slices,
         shadow=True,
         explode=(0, 0.1, 0, 0),
         autopct='%1.1f%%')
-plt.title('Interesting Graph\nCheck it out')
-plt.show()
+plt.title('Matplotlib demo\nCheck it out')
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\pie1.png')

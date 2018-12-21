@@ -42,7 +42,7 @@ def graph_data(stock):
     ax1.grid(True)  # , color='g', linestyle='-', linewidth=5)
     plt.xlabel('Date')
     plt.ylabel('Price')
-    plt.title('Interesting Graph\nCheck it out')
+    plt.title('Matplotlib demo\nCheck it out')
     plt.legend()
     plt.subplots_adjust(left=0.09, bottom=0.20, right=0.94, top=0.90, wspace=0.2, hspace=0)
     plt.show()

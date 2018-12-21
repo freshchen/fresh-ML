@@ -22,6 +22,8 @@ plt.stackplot(days, sleeping, eating, working, playing, colors=['m',
                                                                 'c', 'r', 'k'])
 plt.xlabel('x')
 plt.ylabel('y')
-plt.title('Interesting Graph\nCheck it out')
+plt.title('Matplotlib demo\nCheck it out')
 plt.legend()
-plt.show()
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\stacked1.png')

@@ -22,4 +22,6 @@ ax1.scatter(x2, y2, z2, c='r', marker='o')
 ax1.set_xlabel('x axis')
 ax1.set_ylabel('y axis')
 ax1.set_zlabel('z axis')
-plt.show()
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\3d1.png')

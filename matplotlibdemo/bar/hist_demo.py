@@ -14,5 +14,7 @@ bins = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130]
 plt.hist(population_ages, bins, histtype='bar', rwidth=0.8)
 plt.xlabel('x')
 plt.ylabel('y')
-plt.title('Interesting Graph\nCheck it out')
-plt.show()
+plt.title('Matplotlib demo\nCheck it out')
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\hist1.png')

@@ -18,4 +18,6 @@ ax2.plot(data[0], data[1])
 ax3.plot(data[0], data[1])
 plt.xlabel('x')
 plt.ylabel('y')
-plt.show()
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\sub1.png')

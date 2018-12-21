@@ -15,7 +15,9 @@ plt.xlabel('Plot Number')
 # 列坐标注释
 plt.ylabel('Important var')
 # 生成表标题
-plt.title('Interesting Graph\nCheck it out')
+plt.title('Matplotlib demo\nCheck it out')
 # 生成小方块显示每条线对应的label
 plt.legend()
-plt.show()
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\twoline.png')

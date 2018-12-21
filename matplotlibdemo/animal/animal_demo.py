@@ -23,3 +23,6 @@ def animal1(i):
 
 ani = animation.FuncAnimation(fig, animal1, interval=1000)
 plt.show()
+
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\animal1.png')

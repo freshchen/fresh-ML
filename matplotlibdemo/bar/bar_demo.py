@@ -15,7 +15,9 @@ plt.xlabel('bar-hist Number')
 # 列坐标注释
 plt.ylabel('bar-hist height')
 # 生成表标题
-plt.title('Interesting Graph\nCheck it out')
+plt.title('Matplotlib demo\nCheck it out')
 # 生成小方块显示每条线对应的label
 plt.legend()
-plt.show()
+# plt.show()
+
+plt.savefig('D:\\GIT\\fresh-blog\\source\\images\\bar1.png')
