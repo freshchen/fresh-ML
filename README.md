@@ -1,4 +1,4 @@
-# fresh-Python
+# fresh-ML
 记录了学习python的一些原始代码，以及学习机器学习（ML）的一些记录。
 
 #### corepython：python基础（Version3.7）
